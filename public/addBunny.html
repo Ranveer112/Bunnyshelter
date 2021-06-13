@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="index.js"></script>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Rabbit Shelter :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <a class="navbar-link" href="index.html">Home</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="addBunny.html">Add Bunny</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="fetchBunny.html">Fetch Bunny</a>
+      </li>
+      <li class="navbar-item">
+        <a class="navbar-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+
+
+    <div>
+      <h2>SPECIAL BUNNY BOARDING</h2>
+    </div>
+    
+    <form>
+      <div class="row">
+        <div class="six columns">
+            <label for="name">My name is: </label>
+            <input class="u-full-width" type="text"id="name">
+        </div>
+        <div class="six columns">
+            <label for="dob">I am born at: </label>
+            <input class="u-full-width" type="text" placeholder="YY/MM/MM" id="dob">
+          </div>
+        </div>
+        <div class="row">
+        <div class="twelve columns">
+          <label for="gender">I am a </label>
+          <select class="u-full-width" id="gender">
+            <option value="M">Boy</option>
+            <option value="F">Girl</option>
+          </select>
+        </div>
+        </div>
+        <label for="description">Description</label>
+        <input class="u-full-width" type="text" placeholder="Light brown/white" id="breed">
+        <div class="row">
+        <div class="six columns">
+            <label for="dropOffDate">Drop-Off Date: </label>
+            <input class="u-full-width" type="text" placeholder="YY/MM/MM" id="dropOffDate">
+        </div>
+        <div class="six columns">
+            <label for="pickUpDate">Pick-Up Date: </label>
+            <input class="u-full-width" type="text" placeholder="YY/MM/MM" id="pickUpDate">
+        </div>
+        </div>
+        <label for="carrier">I brought Carrier</label>
+        <input class="u-full-width" type="text" placeholder="Carrier" id="carrier">
+        <label for="kibble">I brought Kibble</label>
+        <input class="u-full-width" type="text" placeholder="Kibble" id="kibble">
+        <label for="treats">I brought Treats</label>
+        <input class="u-full-width" type="text" placeholder="Treats" id="treats">
+        <label for="toys">I brought Toys</label>
+        <input class="u-full-width" type="text" placeholder="Toys" id="toys">
+        <label for="blanket">I brought Blankets</label>
+        <input class="u-full-width" type="text" placeholder="Blankets" id="blanket">
+        <label for="towels">I brought Towels</label>
+        <input class="u-full-width" type="text" placeholder="Towels" id="towels">
+        <label for="medical">I am on medication</label>
+        <textarea class="u-full-width" placeholder="Include dosage" id="medical"></textarea>
+        <label for="notes">Notes</label>
+        <textarea class="u-full-width" placeholder="Other special things" id="notes"></textarea>
+        <label for="nails">
+        <input type="checkbox" id="nails" value="trimmed" />
+        <span>I want nails trimmed and groomed</span>
+        </label>
+        <div class="row">
+        <div class="six columns">
+            <label for="ownerName">Owner Name: </label>
+            <input class="u-full-width" type="text" placeholder="" id="ownerName">
+        </div>
+        <div class="six columns">
+          <label for="ownerEmail">Owner Email</label>
+          <input class="u-full-width" type="text" placeholder="" id="ownerEmail">
+        </div>
+        </div>
+        <div class="row">
+        <div class="six columns">
+            <label for="exampleRecipientInput">Contact type: </label>
+            <select class="u-full-width" id="exampleRecipientInput">
+                <option value="homeP">Home</option>
+                <option value="mobileP">Mobile</option>
+                <option value="WorkP">Work</option>
+            </select>
+        </div>
+        <div class="six columns">
+          <label for="phone">Phone number: </label>
+          <input class="u-full-width" type="text" placeholder="(666)666-6666)" id="phone">
+        </div>
+        </div>
+        <div class="row">
+        <div class="twelve columns">
+            <label for="streetAddresss">Street Address</label>
+            <input class="u-full-width" type="text" placeholder="Locker Room" id="streetAddresss">
+        </div>
+        </div>
+        <div class="row">
+        <div class="four columns">
+            <label for="city">City</label>
+            <input class="u-full-width" type="text" placeholder="Seattle" id="city">
+        </div>
+        <div class="four columns">
+            <label for="state">State</label>
+            <input class="u-full-width" type="text" placeholder="Washington" id="state">
+        </div>
+        <div class="four columns">
+          <label for="zip">Zip</label>
+          <input class="u-full-width" type="text" placeholder="" id="zip">
+        </div>
+        </div>
+        <div class="row">
+        <div class="six columns">
+            <label for="vet">Veterinarian: </label>
+            <input class="u-full-width" type="text" placeholder="Van Dark" id="vet">
+        </div>
+        <div class="six columns">
+          <label for="vetPhone">Veterinarian Phone: </label>
+          <input class="u-full-width" type="text" placeholder="(233)333-3333" id="vetPhone">
+        </div>
+        </div>
+        <div class="row">
+        <div class="four columns">
+            <label for="emergencyContactName">Emergency Contact Name: </label>
+            <input class="u-full-width" type="text" placeholder="Billy Herrington" id="emergencyContactName">
+        </div>
+        <div class="four columns">
+            <label for="emergencyContactPhone">Emergency Contact Phone: </label>
+            <input class="u-full-width" type="text" placeholder="(233)333-3333" id="emergencyContactPhone">
+        </div>
+        <div class="four columns">
+          <label for="emergencyContactRelationship">Relationship</label>
+          <input class="u-full-width" type="text" placeholder="Friend" id="emergencyContactRelationship">
+        </div>
+        </div>
+        <div class="center">
+        <input class="button-primary submit-button" type="submit" value="Submit" id="submbutton">
+        </div>
+    </form>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
